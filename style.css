@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.bgimage{
+    height: 80vh;
+    background-image: url(img/65100.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: relative;
+}
+.hero-head{
+    width: 50%;
+    text-align: start !important;
+    position: absolute;
+    padding: 8% 12%;
+    left: 0;
+}
+
+.hero-head h1{
+    font-family: "Berkshire Swash", serif;
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+}
+.hero-head p{
+    color: white;
+    font-size: 18px;
+}
+.hero-head button{
+    margin: 40px 0px;
+    padding: 15px 30px;
+    background-color: rgb(234, 234, 235);
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    border-style: none;
+}
+.feat-head{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.feature{
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+}
+.feat-head p{
+    width: 40%;
+    margin: 0 auto;
+}
+.feat-lst{
+    margin-top: 30px;
+}
+.feat-head h2, .feat-lst h3{
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.feat-head h2{
+    font-size: 30px;
+}
+.feat-lst h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.feat-lst img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.feat-lst tr td{
+    margin: 0;
+    padding: 40px 20px;
+}
+.ft-tbl{
+    background-color: #283926;
+}
+.ft-tbl2{
+    background-color: #D7C7AE;
+}
+.tbl-btn{
+    margin-top: 20px;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: 600;
+}
+td:nth-child(even){
+    background-color: #283926;
+    color: #D7C7AE;
+    border-radius: 10px;
+}
+.two button{
+    color: #D7C7AE;
+}
+
+/* =========work section start========= */
+.sec-work{
+    margin: 100px auto;
+    background-color: #D7C7AE;
+}
+.work{
+    padding: 50px;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+}
+.w-top h2{
+    font-family: "Berkshire Swash", serif;
+    font-size: 30px;
+    font-style: italic;
+    color: #283926;
+}
+.w-top p{
+    width: 60%;
+    margin: 0 auto;
+    padding-top:10px ;
+}
+.main-cont{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+.main-cont img{
+    width: 400px;
+}
+.main-works{
+    color: #283926;
+    text-align: left;
+    padding: 20px;
+}
+.main-works h2{
+    font-size: 50px;
+    font-family: "Berkshire Swash", serif;
+}
+.main-works h4{
+    font-size: 20px;
+    font-style: italic;
+    font-family: "Berkshire Swash", serif;
+    margin: 10px 0px;
+}
+
+/* =========work section end========= */
+
+/* =========work port section start========= */
+.work-port{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* =========work port section end========= */
